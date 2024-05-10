@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Akame{
+    display: flex;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+header{
+    
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+h2,
+section{
+    padding-left: 20%;
+}
+
+br{
+    padding: 50px;
+}
+form{
+    display: block;
+    width: 300px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button,
+nav ul li a{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid rgb(174, 0, 255);
+  }
+  
+
+  
+ 
+  
+
+
+
+  .svg-frame {
+    margin-left: 500px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .svg-frame svg {
+    position: absolute;
+    transition: .5s;
+    z-index: calc(1 - (0.2 * var(--j)));
+    transform-origin: center;
+    width: 344px;
+    height: 344px;
+    fill: none;
+  }
+  
+  
+  
+  .svg-frame svg #center {
+    transition: .5s;
+    transform-origin: center;
+  }
+  
+  #out2 {
+    animation: rotate16 7s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #out3 {
+    animation: rotate16 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    stroke: #ff0;
+  }
+  
+  #inner3,
+  #inner1 {
+    animation: rotate16 4s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #center1 {
+    fill: rgb(174, 0, 255);
+    animation: rotate16 2s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes rotate16 {
+    to {
+      transform: rotate(360deg);
+    }
+  }

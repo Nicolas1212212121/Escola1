@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+header{
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+section{
+    padding-left: 20%;
+}
+nav ul li a{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+table{
+    
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+}
